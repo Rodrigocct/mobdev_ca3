@@ -11,7 +11,7 @@ import { ApiService } from '../../services/api.service';
 export class CharactersDetailsPage implements OnInit {
   character: any;
   //isFavourite = false;
-  characterId = null;
+  characterId 
 
   constructor(private activatedRoute: ActivatedRoute, private api: ApiService) { }
 
